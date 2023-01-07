@@ -1,0 +1,188 @@
+git config --global user.name "rohan1917"
+git config --global user.email ""
+
+code. => to open in vs code
+
+// to add a file in repository 
+
+git init
+
+git remote add origin https://github.com/rohan1917/zomato-landing-page-DT.git
+
+git status
+
+git add .
+
+git status
+
+git commit -m "Ill be adding README.md file"
+
+git push origin master
+
+
+
+
+//(new contributer edited some code )
+
+ git init
+
+git remote add origin <project url>
+
+git pull origin <branchname>
+
+
+
+
+// to clone entier project 
+git clone
+
+
+
+
+// To create a new branch 
+
+
+git checkout -b "new branch"
+
+git status
+
+git add .
+
+git status
+
+git commit -m "new branch created"
+
+git push origin  <branch name>
+
+
+
+
+// adding a code in already created repository but in a new branch 
+
+git status
+
+git add .
+
+git status
+
+git commit -m "new branch created"
+
+git push origin <branch name>
+
+
+
+
+// To pull project from github  if new contributer edited some code
+
+git init
+
+git remote add origin  https://github.com/rohan1917/zomato-landing-page-DT.git
+
+git pull origin InstallationSetUp
+
+
+
+// To pull entier project from github  if new contributer edited some code and  with along other branch already present 
+
+git init
+
+git remote add origin < https://github.com/rohan1917/zomato-landing-page-DT.git>
+
+git pull origin <master>
+
+
+// to ignore certain files to upload in github use
+
+step 1 : create .gitignore file 
+atep 2: mention the file names that u want to ignore in .gitignore file
+
+
+
+
+//The default branch has been renamed!
+main is now named master
+
+If you have a local clone, you can update it by running the following commands.
+
+git branch -m main master
+git fetch origin
+git branch -u origin/master master
+git remote set-head origin -a
+
+
+
+
+// TO MERGE AND COMPARE PULL REQUEST 
+
+Krithick M@LAPTOP-SFC6215J MINGW64 /d/aWeb development  boot camp/first-server
+
+$ git init
+
+Initialized empty Git repository in D:/aWeb development  boot camp/first-server/.git/
+
+
+
+$ git pull https://github.com/Krithick123/server-created.git
+
+
+$ git remote add origin https://github.com/Krithick123/server-created.git
+
+
+$ git status
+
+
+$ git add .
+
+
+$ git commit -m "first commit "
+
+
+
+$ git log
+commit af7f2c6a4e0ef3e9770d5ba1bcfc18baf90a0485 (HEAD -> master)
+Author: Krithick123 <109015604+Krithick123@users.noreply.github.com>
+Date:   Wed Dec 14 21:59:15 2022 +0530
+
+    first commit
+
+commit 0cc8426dc83cf20caa0bdd39a4c145881f1de10d
+Author: Krithick123 <109015604+Krithick123@users.noreply.github.com>
+Date:   Wed Dec 14 21:48:14 2022 +0530
+
+    Initial commit
+
+
+$ git push origin master
+
+
+
+
+Krithick M@LAPTOP-SFC6215J MINGW64 /d/aWeb development  boot camp/first-server (master)
+$ git checkout -b "sub"
+Switched to a new branch 'sub'
+
+Krithick M@LAPTOP-SFC6215J MINGW64 /d/aWeb development  boot camp/first-server (sub)
+$ git add .
+
+Krithick M@LAPTOP-SFC6215J MINGW64 /d/aWeb development  boot camp/first-server (sub)
+$ git commit -m "second commit"
+[sub 88ec770] second commit
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+Krithick M@LAPTOP-SFC6215J MINGW64 /d/aWeb development  boot camp/first-server (sub)
+$ git push origin sub
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 316 bytes | 316.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'sub' on GitHub by visiting:
+remote:      https://github.com/Krithick123/server-created/pull/new/sub
+remote:
+To https://github.com/Krithick123/server-created.git
+ * [new branch]      sub -> sub
+
+
